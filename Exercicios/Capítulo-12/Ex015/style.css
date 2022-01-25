@@ -1,0 +1,17 @@
+    @charset "UTF-8";
+    body {
+    background-color: palegreen;
+    font-family: sans-serif;
+    }
+   
+    h1 {
+        color: rebeccapurple; 
+        background-color: mediumslateblue;
+    }
+    h2 {
+        color: salmon;
+    }
+    p {
+        text-align: justify;
+    }
+    

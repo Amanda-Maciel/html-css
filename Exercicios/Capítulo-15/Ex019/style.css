@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* tudo em HTML é id, em css é #
+ tudo em HTML é class, em css é .*/
+body {
+    background-color: azure;
+    font-family: sans-serif;
+}
+h1 {
+    color: cadetblue;
+}
+h2 {
+    color: #0CB08A;
+}
+h1#principal /*pode deixar apenas #principal*/ {
+text-align: center;
+color: white;
+background-color: #3C524C;
+}
+.inter {
+    color: #37C4A3;
+}
+.avancado {
+    color: #0DFFC6;
+}
+.basico {
+   color: #1FAD8C ; 
+}
+.destaque {
+    background-color: white;
+}

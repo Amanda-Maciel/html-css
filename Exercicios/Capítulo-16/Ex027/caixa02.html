@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grouping Tags</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+            background-color: beige;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        footer {
+            background-color: #10909E;
+            color: white;
+            font-weight: 400;
+            padding: 20px;
+            text-align: center;   
+            margin-top: 10px;    
+            border-radius: 20px 0px;
+            box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.582);
+            margin-right: 50px;
+            margin-left: 50px;
+        }
+
+         footer > p {
+             margin: 0px; /*o navegador considerou uma margem de 13px, fazendo o
+             padding ficar maior do que deveria*/
+         }
+
+          /*inset sombra para dentro*/
+       
+
+          nav > a {
+              margin-right: 10px;
+              box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.185); /*deslocamento horizontal, vertical e o 
+              espalhamento.*/
+              text-decoration: none;  
+              color: rgba(7, 7, 172, 0.986);      
+              }
+         
+         nav > a:hover {
+             background-color: lavenderblush ;
+         }
+
+         #bola {
+             height: 100px;
+             width: 100px;
+             margin: 10px;
+             border-radius: 50%;
+             background-color: #CACFD6;
+         }
+         
+
+
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NotíAgora</h1>
+        <nav>
+   <a href="#">Youtube</a>
+   <a href="#">Facebook</a>
+   <a href="#">Linkedin</a>
+   <a href="#">Instagram</a>
+   <a href="#">Whatsapp</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Entretenimento">
+            <article>
+                <h2>Terra próxima ao sol</h2>
+                    <p>A partir desta segunda-feira (3), 
+                        a Terra começa a atingir seu ponto mais próximo 
+                        do Sol (o periélio). E, assim como em anos anteriores, 
+                        2022 estará repleto de eventos astronômicos.
+                        Os fenômenos incluem 10 chuvas de meteoros, 
+                        o alinhamento de 5 planetas, 2 eclipses lunares 
+                        totais e 2 eclipses solares 
+                        parciais, além de "superluas" e até uma "lua negra".</p>
+                        <aside>
+                            <p>Matéria escrita por G1</p>
+                        </aside>
+            </article>
+        </section>
+
+        <section id="Esportes">
+            <article>
+                <h2>Contratação do Ricardo Goulart pelo Santos</h2>
+                    <p>
+                        Após recuar nas negociações com Nathan, do Atlético-MG, o 
+                        Santos busca outro nome de peso para a temporada. O alvo da 
+                        vez é o meia-atacante 
+                        Ricardo Goulart, sem clube depois de deixar o Guangzhou FC, da China.
+                        O Alvinegro vê no atacante um jogador que possa elevar o patamar do elenco. 
+                        Goulart 
+                        chegaria para ser o camisa 10 do Peixe. Segundo apurado pelo ge, 
+                        as conversas ainda estão em estágio inicial.
+                    </p>
+                    <aside>
+                        <p>Matéria escrita por G1</p>
+                    </aside>
+            </article>
+        </section>
+
+    </main>
+<footer>
+<p>Desenvolvido por Amanda Maciel</p>
+</footer>
+
+    <div id="bola">
+    </div>
+</body>
+</html>
